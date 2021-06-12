@@ -1,0 +1,29 @@
+{
+  "name": "setup-kha",
+  "version": "0.1.0",
+  "description": "Setup kha sdk",
+  "private": true,
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "ncc build",
+    "dist": "npm run build && npm run pack"
+  },
+  "keywords": [
+    "kha",
+    "actions",
+    "setup"
+  ],
+  "author": "tong <tong@disktree.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/tool-cache": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@vercel/ncc": "^0.28.6",
+    "typescript": "^4.3.2"
+  }
+}

@@ -1,0 +1,35 @@
+name: 'Setup kha'
+description: 'Setup kha sdk'
+author: 'tong <tong@disktree.net>'
+inputs:
+  repo:
+    description: 'Kha repository'
+    required: false
+    default: 'https://github.com/Kode/Kha.git'
+  projectfile:
+    description: 'Name of your project file, defaults to "khafile.js"'
+    required: false
+  target:
+    description: 'Target platform'
+    required: false
+  graphics:
+    description: 'Graphics api to use. Possible parameters are direct3d9, direct3d11, direct3d12, metal, vulkan and opengl. Example: opengl'
+    required: false
+  audio:
+    description: 'Audio api to use. Possible parameters are directsound and wasapi.'
+    required: false
+  shaderversion:
+    description: 'Set target shader version manually'
+    required: false
+  ffmpeg:
+    description: 'Location of ffmpeg executable'
+    required: false
+  compile:
+    description: 'Compile executable'
+    required: false
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'x'
+  color: 'gray-dark'
