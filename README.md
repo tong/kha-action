@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: tong/setup-kha@v0.1
+      - uses: tong/kha-action@v0.1.0
         with:
           target: "linux"
           graphics: "opengl"
