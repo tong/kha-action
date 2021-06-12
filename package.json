@@ -1,5 +1,5 @@
 {
-  "name": "setup-kha",
+  "name": "kha-action",
   "version": "0.1.0",
   "description": "Setup kha sdk",
   "private": true,

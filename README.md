@@ -3,6 +3,8 @@
 
 This action sets up a [kha](https://github.com/Kode/Kha) environment for use in your workflows.
 
+[![Test](https://github.com/tong/kha-action/actions/workflows/test.yml/badge.svg)](https://github.com/tong/kha-action/actions/workflows/test.yml)
+
 ## Usage
 
 ```yaml
